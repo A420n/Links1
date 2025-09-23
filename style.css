@@ -50,15 +50,22 @@ a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*MEDIA= MENOS DE 700PX Y CAMBIA EL DISPLAY A NORMAL*/
+@media screen and (max-width: 800px) {
+  .bodi{
+  	display: inline;
+		text-align: center;
+  }
+  .pic{
+  	width: 100vw;
+  	padding: 0;
+		margin-top: 10px;
+  }
+  .inf{
+  	width: 100vw;
+  	padding: 0;
+  }
+  .red{
+  	width: 100%;
+  	margin-top: 30px;
+  }
+}
